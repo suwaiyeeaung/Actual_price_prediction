@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st
 import datetime 
 import numpy as np
-import matplotlib.ticker as mticker
+#import matplotlib.ticker as mticker
 import pandas as pd
 import requests
 import sklearn.metrics as metrics
