@@ -1,8 +1,9 @@
 import yfinance as yf
 import streamlit as st
 import datetime 
-#import matplotlib.pyplot as pltg
+import matplotlib.pyplot as pltg
 import numpy as np
+import matplotlib.ticker as mticker
 import pandas as pd
 import requests
 import sklearn.metrics as metrics
@@ -12,7 +13,7 @@ from numpy import hstack
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-#import matplotlib.ticker as mticker
+import matplotlib.ticker as mticker
 import datetime as dt
 import mpl_finance as mpf 
 from sklearn.preprocessing import MinMaxScaler
@@ -22,21 +23,16 @@ from tensorflow.keras import backend as K
 from keras.models import load_model
 from keras.layers import Input
 from keras.layers import Dropout
-from keras.layers import AlphaDropout
 from keras.layers import Activation
 from keras.layers import Bidirectional
-from keras.layers import RepeatVector
-from keras.layers import BatchNormalization
 from keras.layers import TimeDistributed,Conv1D,MaxPooling1D,Flatten
 from keras.callbacks import EarlyStopping
 from keras.callbacks import ModelCheckpoint
-from keras.layers import LeakyReLU
 from keras.constraints import maxnorm
 from keras.models import Sequential
 from keras.layers import LSTM,Embedding
 from keras.layers import Dense
 from keras.optimizers import Adam,SGD
-from keras.optimizers import RMSprop
 
 class attention(tf.keras.layers.Layer):
     
