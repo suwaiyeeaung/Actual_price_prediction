@@ -1,7 +1,6 @@
 import yfinance as yf
 import streamlit as st
 import datetime 
-import matplotlib.pyplot as pltg
 import numpy as np
 import matplotlib.ticker as mticker
 import pandas as pd
@@ -13,7 +12,6 @@ from numpy import hstack
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import matplotlib.ticker as mticker
 import datetime as dt
 import mpl_finance as mpf 
 from sklearn.preprocessing import MinMaxScaler
