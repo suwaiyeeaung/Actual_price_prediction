@@ -1,7 +1,7 @@
 import yfinance as yf
 import streamlit as st
 import datetime 
-import matplotlib.pyplot as pltg
+#import matplotlib.pyplot as pltg
 import numpy as np
 import matplotlib.ticker as mticker
 import pandas as pd
